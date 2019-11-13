@@ -1,0 +1,10 @@
+<Sysmon schemaversion="4.22">
+   <EventFiltering>
+ <RuleGroup name="" groupRelation="or">
+      <ProcessAccess onmatch="exclude">
+  	<SourceImage condition="is">C:\Program Files (x86)\Splashtop\Splashtop Remote\Server\SRService.exe</SourceImage>
+	<SourceImage condition="is">C:\Program Files (x86)\Splashtop\Splashtop Remote\Server\SRManager.exe</SourceImage>
+      </ProcessAccess>
+</RuleGroup>
+</EventFiltering>
+</Sysmon>
