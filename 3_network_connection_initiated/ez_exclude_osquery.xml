@@ -3,7 +3,7 @@
  <RuleGroup name="" groupRelation="or">
       <NetworkConnect onmatch="exclude">
 			<!--SECTION: Osquery-->
-			<SourceImage condition="end with">\Program Files\Ezoka\osquery\osqueryd\osqueryd.exe</SourceImage>
+			<Image condition="end with">\Program Files\Ezoka\osquery\osqueryd\osqueryd.exe</Image>
 	  </NetworkConnect>	
 </RuleGroup>
 </EventFiltering>
