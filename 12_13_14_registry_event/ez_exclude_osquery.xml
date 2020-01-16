@@ -1,0 +1,10 @@
+<Sysmon schemaversion="4.22">
+   <EventFiltering>
+ <RuleGroup name="" groupRelation="or">
+      <RegistryEvent onmatch="exclude">
+			<!--SECTION: Osquery-->
+			<Image condition="end with">\Program Files\Ezoka\osquery\osqueryd\osqueryd.exe</Image>
+		</RegistryEvent>
+</RuleGroup>
+</EventFiltering>
+</Sysmon>
