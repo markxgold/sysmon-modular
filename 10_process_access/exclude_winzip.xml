@@ -2,7 +2,7 @@
    <EventFiltering>
  <RuleGroup name="" groupRelation="or">
       <ProcessAccess onmatch="exclude">
-		<SourceImage condition="is">C:\Program Files\WinZip\FAHWindow64.exe</SourceImage>
+		<SourceImage condition="end with">C:\Program Files\WinZip\FAHWindow64.exe</SourceImage>
       </ProcessAccess>
 </RuleGroup>
 </EventFiltering>

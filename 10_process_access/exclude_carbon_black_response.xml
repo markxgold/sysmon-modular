@@ -2,7 +2,7 @@
    <EventFiltering>
  <RuleGroup name="" groupRelation="or">
       <ProcessAccess onmatch="exclude">
-		<SourceImage condition="is">C:\Windows\CarbonBlack\cb.exe</SourceImage><!--CarbonBlack:Response-->
+		<SourceImage condition="end with">C:\Windows\CarbonBlack\cb.exe</SourceImage><!--CarbonBlack:Response-->
       </ProcessAccess>
 </RuleGroup>
 </EventFiltering>

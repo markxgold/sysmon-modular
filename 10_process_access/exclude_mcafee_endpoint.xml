@@ -2,8 +2,8 @@
    <EventFiltering>
  <RuleGroup name="" groupRelation="or">
       <ProcessAccess onmatch="exclude">
-		<SourceImage condition="is">C:\Program Files\McAfee\Endpoint Security\Endpoint Security Platform\mfeesp.exe</SourceImage><!--McAfee:Endpoint Security Platform-->
-		<SourceImage condition="is">C:\Program Files\McAfee\Agent\x86\macompatsvc.exe</SourceImage><!--McAfee:Agent-->
+		<SourceImage condition="end with">C:\Program Files\McAfee\Endpoint Security\Endpoint Security Platform\mfeesp.exe</SourceImage><!--McAfee:Endpoint Security Platform-->
+		<SourceImage condition="end with">C:\Program Files\McAfee\Agent\x86\macompatsvc.exe</SourceImage><!--McAfee:Agent-->
       </ProcessAccess>
 </RuleGroup>
 </EventFiltering>

@@ -2,7 +2,7 @@
    <EventFiltering>
  <RuleGroup name="" groupRelation="or">
       <ProcessAccess onmatch="exclude">
-		<SourceImage condition="is">C:\WINDOWS\CCM\CcmExec.exe</SourceImage>
+		<SourceImage condition="end with">C:\WINDOWS\CCM\CcmExec.exe</SourceImage>
       </ProcessAccess>
 </RuleGroup>
 </EventFiltering>

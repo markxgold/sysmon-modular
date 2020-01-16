@@ -2,7 +2,7 @@
    <EventFiltering>
  <RuleGroup name="" groupRelation="or">
       <ProcessAccess onmatch="exclude">
-  	<SourceImage condition="is">C:\Program Files (x86)\VMware\VMWare Player\vmware-authd.exe</SourceImage>
+  	<SourceImage condition="end with">C:\Program Files (x86)\VMware\VMWare Player\vmware-authd.exe</SourceImage>
       </ProcessAccess>
 </RuleGroup>
 </EventFiltering>
