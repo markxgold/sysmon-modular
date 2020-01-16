@@ -2,7 +2,7 @@
    <EventFiltering>
  <RuleGroup name="" groupRelation="or">
       <NetworkConnect onmatch="exclude">
-       <Image condition="is">C:\Program Files\ESET\ESET Nod32 Antivirus\ekrn.exe</Image> <!--Credit d4ph1l -->
+       <Image condition="end with">:\Program Files\ESET\ESET Nod32 Antivirus\ekrn.exe</Image> <!--Credit d4ph1l -->
 	  </NetworkConnect>
 </RuleGroup>
 </EventFiltering>

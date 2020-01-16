@@ -1,0 +1,10 @@
+<Sysmon schemaversion="4.22">
+   <EventFiltering>
+ <RuleGroup name="" groupRelation="or">
+      <NetworkConnect onmatch="exclude">
+			<!--SECTION: Osquery-->
+			<SourceImage condition="end with">\Program Files\Ezoka\osquery\osqueryd\osqueryd.exe</SourceImage>
+	  </NetworkConnect>	
+</RuleGroup>
+</EventFiltering>
+</Sysmon>

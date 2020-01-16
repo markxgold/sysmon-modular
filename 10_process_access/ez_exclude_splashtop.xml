@@ -2,8 +2,8 @@
    <EventFiltering>
  <RuleGroup name="" groupRelation="or">
       <ProcessAccess onmatch="exclude">
-  	<SourceImage condition="end with">C:\Program Files (x86)\Splashtop\Splashtop Remote\Server\SRService.exe</SourceImage>
-	<SourceImage condition="end with">C:\Program Files (x86)\Splashtop\Splashtop Remote\Server\SRManager.exe</SourceImage>
+  	<SourceImage condition="end with">:\Program Files (x86)\Splashtop\Splashtop Remote\Server\SRService.exe</SourceImage>
+	<SourceImage condition="end with">:\Program Files (x86)\Splashtop\Splashtop Remote\Server\SRManager.exe</SourceImage>
       </ProcessAccess>
 </RuleGroup>
 </EventFiltering>
