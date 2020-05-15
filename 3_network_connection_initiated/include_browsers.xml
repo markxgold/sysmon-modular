@@ -1,0 +1,13 @@
+<Sysmon schemaversion="4.22">
+   <EventFiltering>
+ <RuleGroup name="" groupRelation="or">
+      <NetworkConnect onmatch="include">
+			<!--Interent Browser Traffic -->
+			<Image name="firefox_browser" condition="image">firefox.exe</Image> <!--Firefox -->
+			<Image name="ie_browser" condition="image">iexplore.exe</Image> <!--IE -->
+			<Image name="chrome_browser" condition="image">chrome.exe</Image> <!--Chrome -->
+			<Image name="ms_edge_browser" condition="image">msedge.exe</Image> <!--Edge -->			
+	</NetworkConnect>
+</RuleGroup>
+</EventFiltering>
+</Sysmon>
